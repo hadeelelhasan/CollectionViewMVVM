@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		991D27AF270ED737000507AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991D27AE270ED737000507AE /* AppDelegate.swift */; };
 		991D27B1270ED737000507AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991D27B0270ED737000507AE /* SceneDelegate.swift */; };
-		991D27B3270ED737000507AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991D27B2270ED737000507AE /* ViewController.swift */; };
 		991D27B6270ED737000507AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 991D27B4270ED737000507AE /* Main.storyboard */; };
 		991D27B8270ED74E000507AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 991D27B7270ED74E000507AE /* Assets.xcassets */; };
 		991D27BB270ED74E000507AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 991D27B9270ED74E000507AE /* LaunchScreen.storyboard */; };
@@ -26,6 +25,7 @@
 		991D27F4270F2B0B000507AE /* HeaderCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991D27F3270F2B0B000507AE /* HeaderCollectionView.swift */; };
 		991D27F6270F309F000507AE /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991D27F5270F309F000507AE /* ProductViewModel.swift */; };
 		991D27F9270F6957000507AE /* ProductViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991D27F8270F6957000507AE /* ProductViewControllerExtension.swift */; };
+		99F00C2B2763E30700B8DC96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F00C2A2763E30700B8DC96 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +49,6 @@
 		991D27AB270ED737000507AE /* CollectionViewMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		991D27AE270ED737000507AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		991D27B0270ED737000507AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		991D27B2270ED737000507AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		991D27B5270ED737000507AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		991D27B7270ED74E000507AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		991D27BA270ED74E000507AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -71,6 +70,7 @@
 		991D27F3270F2B0B000507AE /* HeaderCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionView.swift; sourceTree = "<group>"; };
 		991D27F5270F309F000507AE /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
 		991D27F8270F6957000507AE /* ProductViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewControllerExtension.swift; sourceTree = "<group>"; };
+		99F00C2A2763E30700B8DC96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,7 +186,7 @@
 				991D27F7270F6902000507AE /* Extensions */,
 				991D27EC270F1CCA000507AE /* ProductCollectionViewCell */,
 				991D27F5270F309F000507AE /* ProductViewModel.swift */,
-				991D27B2270ED737000507AE /* ViewController.swift */,
+				99F00C2A2763E30700B8DC96 /* ViewController.swift */,
 			);
 			path = ProductViewControllers;
 			sourceTree = "<group>";
@@ -346,9 +346,9 @@
 				991D27F0270F2055000507AE /* ProductCollectionCellRepresentable.swift in Sources */,
 				991D27E1270ED9D8000507AE /* Product.swift in Sources */,
 				991D27F4270F2B0B000507AE /* HeaderCollectionView.swift in Sources */,
-				991D27B3270ED737000507AE /* ViewController.swift in Sources */,
 				991D27E4270EEDB0000507AE /* CollectionHeaderFooterViewRepresentable.swift in Sources */,
 				991D27AF270ED737000507AE /* AppDelegate.swift in Sources */,
+				99F00C2B2763E30700B8DC96 /* ViewController.swift in Sources */,
 				991D27E8270EEF8F000507AE /* CollectionSectionRepresentable.swift in Sources */,
 				991D27F9270F6957000507AE /* ProductViewControllerExtension.swift in Sources */,
 				991D27EE270F1E1E000507AE /* ProductCollectionViewCell.swift in Sources */,
